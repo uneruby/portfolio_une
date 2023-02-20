@@ -1,12 +1,13 @@
 import styles from '@/styles/Home.module.sass'
 import Link from 'next/link'
 import { Base } from '@/parts/Base/Base'
+import { Header } from '@/parts/Header/Header'
 
 
 export default function Home() {
     return (
       <div>
-        <Base>
+        <Header/>
         <div>
             <h1>About</h1>
             <div>
@@ -34,7 +35,6 @@ export default function Home() {
                 <p>▲Colwellia marinimaniae MTCD1</p>
             </div>
           </div>
-        </Base>
       </div>
     )
   }

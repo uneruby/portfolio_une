@@ -11,14 +11,16 @@ export const Header:React.FC = () => {
                     Portfolio
                 </Link>  
             </div>
-            <div className= {styles.Header_News}>
-                <Link href="/News">News</Link>
+            <div className={styles.Contents}>
+                <div className= {styles.Header_News}>
+                    <Link href="/News">News</Link>
+                </div>
+                <div className= {styles.Header_About}>
+                    <Link href="/About">About</Link>
+                </div>
+                <div className= {styles.Header_Works}>
+                    <Link href="/Works">Works</Link>
             </div>
-            <div className= {styles.Header_About}>
-            <Link href="/About">About</Link>
-            </div>
-            <div className= {styles.Header_Works}>
-            <Link href="/Works">Works</Link>
             </div>
         </div>
     )

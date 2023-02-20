@@ -1,12 +1,13 @@
 import styles from '@/styles/Home.module.sass'
 import Link from 'next/link'
 import { Base } from '@/parts/Base/Base'
+import { Header } from '@/parts/Header/Header'
 
 
 export default function Home() {
     return (
       <div>
-        <Base>
+        <Header/>
           <div>
             <div>
                 <h1>News</h1>
@@ -26,7 +27,6 @@ export default function Home() {
                 </p>
             </div>
           </div>
-        </Base>
       </div>
     )
   }

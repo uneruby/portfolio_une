@@ -1,20 +1,19 @@
 .Header{
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px 0px 12px 5px;
-gap: 50px;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px 12px 5px;
+    gap: 50px;
 
-width: 1920px;
-height: 86px;
+    width: 1920px;
+    height: 50px;
 
-background: #07344E;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+    background: #07344E;
+    position: fixed;
+    top: 0px;
+    left:0;
+    right: 0px;
+    z-index: 999;
 }
 .Header_title{
 display: flex;
@@ -39,16 +38,19 @@ height: 80px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 800;
-font-size: 33px;
-line-height: 40px;
+font-size: 30px;
+line-height: 30px;
 
 color: #FFFFFF;
+position: fixed;
+    top: 0px;
+
 }
 .Header_News{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10px;
+    padding: 5px;
     gap: 10px;
     
     font-family: 'Inter';
@@ -59,12 +61,14 @@ color: #FFFFFF;
 
     color: #FFFFFF;
 
-
-    position: absolute;
-    width: 116px;
-    height: 62px;
-    left: 872px;
-    top: 65px;
+    position: fixed;
+    top: 12px;
+    right: 450px;
+    // position: absolute;
+    // width: 116px;
+    // height: 62px;
+    // left: 872px;
+    // top: 65px;
 
     border-bottom: 3px solid #FFFFFF;
 }
@@ -72,7 +76,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10px;
+    padding: 5px;
     gap: 10px;
     
     font-family: 'Inter';
@@ -83,12 +87,14 @@ color: #FFFFFF;
 
     color: #FFFFFF;
 
-
-    position: absolute;
-    width: 124px;
-    height: 62px;
-    left: 1057px;
-    top: 65px;
+    position: fixed;
+    top: 12px;
+    right: 250px;
+    // position: absolute;
+    // width: 124px;
+    // height: 62px;
+    // left: 1057px;
+    // top: 65px;
     
 
     border-bottom: 3px solid #FFFFFF;
@@ -97,7 +103,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10px;
+    padding: 5px;
     gap: 10px;
     
     font-family: 'Inter';
@@ -108,13 +114,20 @@ color: #FFFFFF;
 
     color: #FFFFFF;
 
-
-    position: absolute;
-    width: 128px;
-    height: 62px;
-    left: 1250px;
-    top: 65px;
+    position: fixed;
+    top: 12px;
+    right: 50px;
+    // position: absolute;
+    // width: 128px;
+    // height: 62px;
+    // left: 1250px;
+    // top: 65px;
     
 
     border-bottom: 3px solid #FFFFFF;
+}
+.Contents{
+    position: fixed;
+    top: 30px;
+    right: 50px;
 }
