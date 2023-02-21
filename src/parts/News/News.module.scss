@@ -1,11 +1,23 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .News{
-    position: absolute;
-    top: 100px;
-    width: 1920px;
+    // position: absolute;
+    // top: 100px;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 .News_title{
-    position: absolute;
-    left: 880px;
+    // position: absolute;
+    // left: 880px;
     border-bottom: 3px solid #000000;
     padding-bottom:1px;
     font-family: 'Inter';
@@ -14,37 +26,57 @@
     font-size: 35px;
     line-height: 42px;
     height: 80px;
+    margin: auto;
 }
 .News_contents1{
-    position: absolute;
-    top: 200px;
-    width: 1920px;
-    height: 400px;
+    // position: absolute;
+    // top: 20%
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 40%;
+    aspect-ratio: 3/1;
+    //background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 .contents_img{
-    position: absolute;
-    left: 300px;
-    width: 600px;
-    height: 400px;
+    // position: absolute;
+    // left: 300px;
+    width: 40%;
+    min-width: 400px;
+    min-height: 200px;
+    aspect-ratio: 3/2;
+    margin-bottom: 30px;
+}
+.text{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    margin-left: 50px;
 }
 .contents_title{
-    position: absolute;
-    top: 0px;
-    left: 980px;
+    // position: absolute;
+    // top: 0%;
+    // left: 50%;
     margin-top: 0px;
 }
 .contents_border{
     border-left: 3px solid #000000;
-    position: absolute;
-    top: 100px;
-    left: 1020px;
-    width: 500px;
-    height: 280px;
+    // position: absolute;
+    // top: 20%;
+    // left: 60%;
+    // width: 500px;
+     height: 50%;
 }
 .contents_discription{
-    position: absolute;
+    // position: absolute;
     // top: 100px;
     // left: 1020px;
+    height: 100%;
     font-family: 'Inter';
     font-style: italic;
     font-weight: 600;
@@ -53,8 +85,16 @@
     margin-left: 30px;
 }
 .News_contents2{
-    position: absolute;
-    top: 700px;
-    width: 1920px;
-    height: 400px;
+    // position: absolute;
+    // top: 70%;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    width: 80%;
+    height: 40%;
+    aspect-ratio: 3/1;
+    //background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
