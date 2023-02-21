@@ -1,6 +1,4 @@
-import styles from '@/styles/News.module.scss'
-import Link from 'next/link'
-import { Base } from '@/parts/Base/Base'
+import styles from '@/parts/News/News.module.scss'
 
 export const News:React.FC = () => {
     return (

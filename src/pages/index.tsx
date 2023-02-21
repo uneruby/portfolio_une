@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Mousewheel, Keyboard } from "swiper";
 import router from 'next/router'
 import "swiper/css";
-import { News } from '@/parts/NewsComp'
-import { About } from '@/parts/AboutComp'
+import { News } from '@/parts/News/NewsComp'
+import { About } from '@/parts/About/AboutComp'
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
       <Header/>
       
         <div className={styles.Home}>
-          <div>
+          <div className={styles.News}>
             <News/>
             <button className={styles.News_button} onClick={jumpToNews}>more</button>
           </div>

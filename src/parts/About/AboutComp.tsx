@@ -1,6 +1,4 @@
-import styles from '@/styles/About.module.scss'
-import Link from 'next/link'
-import { Base } from '@/parts/Base/Base'
+import styles from '@/parts/About/About.module.scss'
 
 export const About:React.FC = () => {
     return (
