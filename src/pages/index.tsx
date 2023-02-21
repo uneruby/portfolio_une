@@ -24,11 +24,17 @@ export default function Home() {
         <div className={styles.Home}>
           <div className={styles.News}>
             <News/>
-            <button className={styles.News_button} onClick={jumpToNews}>more</button>
+            {/* <button className={styles.News_button} onClick={jumpToNews}>more</button> */}
+            <div className={styles.button_line001} >
+              <a href="/News">More</a>
+            </div>
           </div>
           <div className={styles.About}>
               <About/>
-              <button className={styles.About_button} onClick={jumpToAbout}>more</button>
+              {/* <button className={styles.About_button} onClick={jumpToAbout}>more</button> */}
+              <div className={styles.button_line002} >
+              <a href="/About">More</a>
+            </div>
           </div>
           <div className={styles.Infomation}>
             <div className={styles.Info_title}>

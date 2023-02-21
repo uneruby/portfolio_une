@@ -6,20 +6,20 @@ export const Header:React.FC = () => {
     return(
         <div className={styles.Header}>
             <div className = {styles.Header_title}>
-                <Link href="/">
+                <Link style={{ textDecoration: 'none', color: 'white' }} href="/">
                     UNE's<br/>
                     Portfolio
                 </Link>  
             </div>
             <div className={styles.Contents}>
                 <div className= {styles.Header_News}>
-                    <Link href="/News">News</Link>
+                    <Link style={{ textDecoration: 'none', color: 'white' }} href="/News">News</Link>
                 </div>
                 <div className= {styles.Header_About}>
-                    <Link href="/About">About</Link>
+                    <Link style={{ textDecoration: 'none', color: 'white' }} href="/About">About</Link>
                 </div>
                 <div className= {styles.Header_Works}>
-                    <Link href="/Works">Works</Link>
+                    <Link style={{ textDecoration: 'none', color: 'white' }} href="/Works">Works</Link>
             </div>
             </div>
         </div>
