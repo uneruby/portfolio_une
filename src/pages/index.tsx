@@ -4,7 +4,7 @@ import { Header } from '@/parts/Header/Header'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination, Mousewheel, Keyboard } from "swiper";
 import "swiper/css";
-import { News } from '@/parts/News/NewsComp'
+import { News } from '@/parts/News/HomeNewsComp'
 import { About } from '@/parts/About/AboutComp'
 
 
