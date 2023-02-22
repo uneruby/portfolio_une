@@ -9,7 +9,7 @@ export const About:React.FC = () => {
             </div>
             <div className={styles.About_hystory}>
               <div className={styles.profContainar}>
-                <img className={styles.my_profile} src="./images/myprofile_5.jpg"></img>
+                <img className={styles.my_profile} src="./images/myprofile.jpg"></img>
                 <div className={styles.contents}>
                   <h1 className={styles.my_name}>宇根　昇汰</h1>
                   <p className={styles.my_goods}>

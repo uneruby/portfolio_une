@@ -1,4 +1,5 @@
 import styles from '@/parts/News/News.module.scss'
+import router from 'next/router'
 import { useState } from 'react'
 import { makeDummyNews, myNews } from '../mock/mockNews'
 
@@ -7,6 +8,9 @@ export const News:React.FC = () => {
     console.log("eawawawawwa")
     makeDummyNews(dummyTitle)
     setDummytitle("")
+  }
+  const jumpNewsPage = ( index:number ):void => {
+    router.push("/News/"+index)
   }
   
   const [dummyTitle,setDummytitle] = useState("")
@@ -17,7 +21,7 @@ export const News:React.FC = () => {
                 <p>News</p>
             </div>
             {myNews.filter((f,index) => index < 2 ).map( (v,index) => (
-              <div key={index} className={styles.News_contents1}>
+              <div key={index} className={styles.News_contents1} onClick={() => jumpNewsPage(index)}>
                 <img className={styles.contents_img} src={v.imageUrl}></img>
                 <div className={styles.text}>
                   <h1 className={styles.contents_title}>{v.title}</h1>
